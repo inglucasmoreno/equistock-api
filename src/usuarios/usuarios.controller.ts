@@ -63,7 +63,7 @@ export class UsuariosController {
             usuario: usuarioCreado
         });
     
-        }
+    }
 
     // Actualizar usuario
     @UseGuards(JwtAuthGuard)
